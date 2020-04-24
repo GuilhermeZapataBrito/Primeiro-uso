@@ -1,0 +1,182 @@
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+	box-sizing: border-box;
+}
+
+body{
+	background: white;
+	font-family: arial, sans-serif;
+	/*fonte para o texto ficar do tamanho relativo ao tamanho da tela do dispositivo*/
+	font-size: 1vw;
+	border-top: 9px solid yellow;
+	
+}
+.container{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+/* criando uma media query para colocar condições, se a tela for igual a x, então faça algo diferente*/
+	@media (min-width: 960px){
+		.container{
+			width: 960px;
+			padding: 0;
+		}
+	}
+/*estilizando a class header*/
+.logo{
+	display:block;
+	margin: 20px auto;
+			
+}
+.title{
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	font-size: 5vw;
+}
+/* criando uma media query para colocar condições, se a tela for igual a x então faça algo diferente*/
+	@media (min-width: 768px){
+		.title{
+			font-size: 3vw;
+			
+		}
+	}
+
+/*estilizando o menu*/
+.nav{
+	display: inline-block;
+	position: relative;
+	font-size: 1.5vw;
+	font-weight: 700;
+	width: 80%;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	margin-top: 10px;
+	
+}
+.nav-item{
+	
+}
+
+.nav-item{
+	float: left;
+	list-style: none;
+	
+}
+.nav-item a{
+	display:block;
+	padding: 15px 20px;
+	text-decoration: none;
+	background: yellow;
+	color: black;
+	
+}
+
+/*capturando somente as bordas do ultimo item*/
+.nav-item:last-child a{
+	border-radius: 0 5px 5px 0;
+	
+}
+
+/*menu responsivo*/
+@media (max-width: 480px){
+	.nav-item:first-child a{
+		border-radius: 0;
+		
+	}
+}
+
+@media (min-width: 480px){
+	
+	.nav-mobile{
+		left: 50%;
+		width: 300px;
+		margin-left: -150px;
+	}
+	.nav-item:first-child a{
+		border-radius: 5px 5px 0 0;
+		
+	}
+}
+
+@media (max-width: 768px){
+	.nav{
+		font-size: 5vw;
+	}
+	 .nav-list{
+		 width: 100%;
+		 display
+	 }
+	  .nav-item{
+		  width: 100%;
+		  float: none;
+		  border-top: 1px solid #fff;
+	  }
+	  
+}
+
+#text-principal p{
+	font-size: 3vw;
+	margin-top: 20px;
+}
+@media (min-width: 768px){
+	#text-principal p{
+		font-size: 1.5vw;
+	}
+}
+
+.adm{
+	width:100%;
+	position: right;
+}
+#sub-menu{
+	color: black;
+	padding: 0 5px 0 5px;
+	float: right;
+	font-family: bold;
+	font-size: 15px;
+	
+}
+#btnenter{
+	position: center;
+	
+}
+nav ul{
+	padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
