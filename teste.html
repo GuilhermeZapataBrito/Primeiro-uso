@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+
+	<meta charset="utf-8"/>
+	
+	<!--MetaTag para o responsivo-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<!-- content: Tag para que o site seja proporcional a largura do dispositivo-->
+	<!-- initial-scale: Tag para que a escala inicial do site-->
+	
+		<h2>Teste Git</h2>
+		<!--esse aqui é para chamar o css-->
+		<link rel="stylesheet" href="estilo.css" type="text/css">
+		
+</head>
+<body>
+
+		<nav class="menu">
+				<ul> 
+			<p id="sub-menu">LOGIN ADM: <button id="btnenter" onclick="clicar()">ENTRAR</button></p>
+				</ul>
+   </div>
+
+		</nav>
+		
+
+
+	
+	
+	</br></br></br></br>
+
+<img class="logo" src="imagens/logo.png" width="300px">
+
+
+<!--conteudo principal-->
+<div class="container">
+	<header class="header">
+	
+	
+	<h1 class="title">>>Encontre seu melhor amigo aqui!!!<<</h1>
+	
+	</br>
+	<nav class="nav">
+	<ul class="nav-list">
+	<li class="nav-item"><a href="file:///C:/Users/guilh/Documents/Estudo-ETEC/TCC/index.html" title="Home">Home</a></li>
+	<li class="nav-item"><a href="file:///C:/Users/guilh/Documents/Estudo-ETEC/TCC/adotar.html" title="Porque adotar?">Porque adotar?</a></li>
+	<li class="nav-item"><a href="file:///C:/Users/guilh/Documents/Estudo-ETEC/TCC/doacao.html" title="Animais para doação">Animais para doação</a></li>
+	<li class="nav-item"><a href="#" title="Animais para doação">Agendamento para banho/tosa</a></li>
+
+	
+	</ul><!--fechamento dos links-->
+	</nav>
+	
+	</header>
+	</br>
+	
+	<section id="text-principal">
+		<p>
+		Um animal de estimação (ou mascote) é um animal doméstico selecionado para o convívio com os seres humanos por questões de companheirismo ou divertimento, o que não significa que essa seja a única função dessas espécies na nossa sociedade.
+		</p>
+		</br>
+		 <table class="foto1">
+	  <tr>
+	 	<td><img src="imagens/home.jpg" width="100%"> 
+	    </br>
+		
+		<td>
+			&ensp;&ensp;	&ensp;&ensp;	&ensp;&ensp;	&ensp;&ensp;&ensp;&ensp;	&ensp;&ensp;	&ensp;&ensp;	&ensp;&ensp;	&ensp;&ensp;	&ensp;&ensp;	&ensp;&ensp;	
+			</td>
+		<td><img src="imagens/home1.png" width="100%">
+		</br>
+    
+		</td>
+		</tr>
+		</table>
+	</section>
+
+</div><!--fechamento do container-->
+
+<script>
+        function clicar() {
+	var senha = prompt("Por favor informe a senha do adminitrador!!!");
+	if(senha != admin) {
+		alert("senha incorreta!!!")
+		window.location.href = "index.html";
+	}else{
+		alerte("Cadastro liberado!!!")
+		window.location.href = "file:///C:/Users/guilh/Documents/Estudo-ETEC/TCC/adm.html";
+	}
+}
+</script>
+
+	 </body>
+</html>
